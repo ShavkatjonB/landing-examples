@@ -1,0 +1,120 @@
+.footer {
+    background: var(--secondaryColor);
+    margin-top: 60px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-list1 img {
+    margin-bottom: 40px;
+}
+
+.footer-list1-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-list-link {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    transition: .5s;
+}
+
+.footer-list-link:hover {
+    color: var(--blackColor);
+    border-bottom: 1px solid var(--blackColor);
+}
+
+.footer-list2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.list2-title {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2.2px;
+}
+
+.footer-list2-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacts-title {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2.2px;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacts {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.contacts-mail {
+    transition: .4s;
+}
+
+.contacts-mail:hover {
+    color: var(--blackColor);
+    text-decoration: underline;
+}
+
+.contacts-subTitle {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2.5px;
+}
+
+.contacts-socials {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.socials-icons {
+    transition: .4s;
+}
+
+.socials-icons:hover {   
+    transform: translateY(-10px);
+}

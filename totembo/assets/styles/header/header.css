@@ -1,0 +1,94 @@
+.box {
+    border-radius: 10px;
+    background: var(--grayColor);
+    box-shadow: 6px 6px 15px 0 rgba(132, 132, 132, 0.3);
+    transition: .4s;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+
+.header-cards {
+    display: grid;
+    gap: 24px;
+    justify-content: center;
+    grid-template-areas:
+        'a c'
+        'b c';
+}
+
+.header-card1 {
+    grid-area: a;
+    height: 294px;
+    width: 526px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+}
+
+.header-card1-percentbox {
+    position: absolute;
+    top: 16px;
+    left: 22px;
+}
+
+.header-card1-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.header-card2 {
+    grid-area: b;
+    height: 294px;
+    width: 526px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.header-card2-percentbox {
+    position: absolute;
+    top: 16px;
+    left: 22px;
+}
+
+.header-card2-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.header-card2 img {
+    margin-left: 50px;
+}
+
+.header-card3 {
+    grid-area: c;
+    width: 746px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.header-card3-percentbox {
+    position: absolute;
+    top: 16px;
+    left: 22px;
+}
+
+.header-card3-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
