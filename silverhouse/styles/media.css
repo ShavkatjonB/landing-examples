@@ -1,0 +1,45 @@
+/* 1200 */
+@media (max-width: 1199.99px) {}
+
+/* 992 */
+@media (max-width: 991.99px) {}
+
+/* 768 */
+@media (max-width: 767.99px) {
+  .header__logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav__list {
+    flex-wrap: wrap;
+  }
+
+  .section__two {
+    flex-direction: column;
+  }
+
+  .block1 {
+    height: initial;
+  }
+
+  .block2 {
+    height: initial;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer__logo img {
+    width: 100%;
+  }
+
+  .footer__info {
+    text-align: center;
+  }
+}
+
+/* 576 */
+@media (max-width: 575.99px) {}
